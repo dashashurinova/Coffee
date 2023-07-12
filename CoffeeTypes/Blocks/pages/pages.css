@@ -1,0 +1,16 @@
+@import url(../header/header.css);
+
+@import url(../body/body.css);
+
+@import url(../section/section.css);
+@import url(../section/section__text.css);
+@import url(../section/__picture/section__picture.css);
+
+@import url(../grid/grid.css);
+@import url(../grid/__text/grid__text.css);
+@import url(../grid/__text/text_lead/grid__text_lead.css);
+@import url(../grid/__text/text_p/grid__text_p.css);
+
+@import url(../button/button.css);
+
+@import url(../footer/footer.css);

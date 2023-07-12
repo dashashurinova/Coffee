@@ -1,0 +1,135 @@
+body, .tel {
+    font-family: 'Inter', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.header {background: url('./img//header_fon.jpg') no-repeat center top / cover;}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 176px;
+    margin-left: auto;
+
+ 
+}
+.menu li a, .tel {font-size: 26px;}
+.menu li { padding-left: 91px;
+margin-top: 50px;}
+.nav { display: flex;}
+.logo {
+margin-top: 30px;
+margin-left: 40px;}
+.icon {width: 22px;}
+h1 {
+font-family:  'Monoton', cursive;
+font-size: 97px;
+letter-spacing: 7px;
+margin: auto;
+margin-top: 7px;
+margin-left: 173px;}
+h2 {
+    font-size: 39px;
+    font-family: 'Anton', sans-serif;
+    margin: auto;
+    text-align: right;
+    padding-top: 60px;
+    padding-bottom: 46px;
+    padding-right: 184px;
+}
+
+main {background: url('./img//Fon.jpg')  no-repeat center / cover  ; 
+padding: 82px 173px 64px 173px ;
+}
+h3 {color: #2B2A29;
+    font-family: 'Anton', sans-serif;
+    font-size: 42px;
+    padding-bottom: 27px;
+    display: block;
+margin: auto;
+position: relative;
+text-align: left;
+}
+
+.image {border-radius: 70px;
+opacity: 80%;
+display: block;
+margin: auto;
+}
+.article1 {
+    position: relative;
+    text-align: center;
+}
+.benefits {
+    position: absolute;
+    top: 186px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 29px;
+    font-family: 'Montaga', serif;
+    color: #2B2A29;
+    text-align:center;
+    line-height: 39px;
+
+}
+
+.coffee_from {
+    padding-top: 85px;
+    padding-bottom: 22px;
+}
+.countries, .country_name {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.country_name {
+    font-size: 64px;
+    font-family: 'IM Fell DW Pica', serif;
+    color: #2B2A29;
+    text-align:center;
+    margin-top: -50px;
+}
+
+.button {
+    margin: auto;
+    margin-top: 112px;
+    margin-bottom: 64px;
+    width: 293px;
+    height: 95px;
+    background-color: #BBD4B2;
+    border: 2px solid #2F7D0B;
+    border-radius: 50px;
+
+    font-size: 42px;
+    font-family: 'IM Fell DW Pica', serif;
+    color: #2B2A29;
+    text-align:center;
+    padding-top: 22px;
+}
+
+footer {
+    background: url('./img/coffee_beans.svg') no-repeat center bottom / cover;
+    display: flex;
+    align-items: center;
+}
+
+h4 {
+font-family:  'Monoton', cursive;
+font-size: 67px;
+letter-spacing: 7px;
+margin-top: 0px;
+margin: auto;
+padding-top: 60px;
+padding-bottom: 60px;
+margin-left: 30px;}
+
+
+.logo_footer {
+    margin-top: 27px;
+    margin-left: 29px;
+    margin-bottom: 45px;
+}
+.tel {
+    padding-right: 174px;
+    text-decoration: underline;
+}

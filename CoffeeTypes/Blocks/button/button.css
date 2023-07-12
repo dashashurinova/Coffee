@@ -1,0 +1,17 @@
+
+.button {
+    margin: auto;
+    /* margin-bottom: 64px; */
+    width: 209px;
+    height: 95px;
+    background-color: #BBD4B2;
+    border: 2px solid #2F7D0B;
+    border-radius: 50px;
+
+    font-size: 50px;
+    font-family: 'IM Fell DW Pica', serif;
+    color: #2B2A29;
+    text-align:center;
+    padding-top: 22px;
+
+}
