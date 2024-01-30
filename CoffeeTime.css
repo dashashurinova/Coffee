@@ -1,59 +1,99 @@
-body, .tel {
+body {
     font-family: 'Inter', sans-serif;
     color: rgb(255, 255, 255);
+    max-width: 1500px;
+    margin: 0 auto;
+    background: url('./img//Fon.jpg')  repeat center / cover  ; 
 }
-
-.header {background: url('./img//header_fon.jpg') no-repeat center top / cover;}
+.header {
+    background: url('./img//header_fon.jpg') no-repeat center top / cover;
+    border-radius: 50px;
+    margin-top:  20px;
+    height: 700px;
+}
 .menu {
     display: flex;
     flex-wrap: wrap;
-    margin-right: 176px;
+    margin-right: 50px;
     margin-left: auto;
-
- 
+    gap: 80px;
+    margin: 20px 50px 0 0 ;
+    background-color: #2B2A29;
+    opacity: 0.85;
+    border-radius: 30px;
+    height: 50px;
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center;
 }
-.menu li a, .tel {font-size: 26px;}
-.menu li { padding-left: 91px;
-margin-top: 50px;}
-.nav { display: flex;}
+.menu li { 
+    color: #f2efeb;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 24px;
+    font-size: 26px;
+    img {
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+    }
+}
+.menu li:hover {
+    text-decoration: underline;
+    a{
+        font-weight: 600;
+    }
+}
+.nav { 
+    display: flex;
+    justify-content: space-between;
+}
 .logo {
 margin-top: 30px;
-margin-left: 40px;}
+margin-left: 30px;}
 .icon {width: 22px;}
 h1 {
 font-family:  'Monoton', cursive;
-font-size: 97px;
+font-size: 128px;
 letter-spacing: 7px;
 margin: auto;
-margin-top: 7px;
-margin-left: 173px;}
+margin-top: 90px;
+margin-left: 30px;}
 h2 {
     font-size: 39px;
     font-family: 'Anton', sans-serif;
-    margin: auto;
+    margin: 90px 50px 20px auto;
     text-align: right;
-    padding-top: 60px;
-    padding-bottom: 46px;
-    padding-right: 184px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    background-color: #2B2A29;
+    opacity: 0.85;
+    max-width: 470px;
+    border-radius: 30px;
+    
 }
 
-main {background: url('./img//Fon.jpg')  no-repeat center / cover  ; 
-padding: 82px 173px 64px 173px ;
+main {
+padding: 82px 50px 64px 32px ;
 }
 h3 {color: #2B2A29;
     font-family: 'Anton', sans-serif;
     font-size: 42px;
-    padding-bottom: 27px;
+    padding-bottom: 60px;
     display: block;
-margin: auto;
-position: relative;
-text-align: left;
+    margin: auto;
+    position: relative;
+    text-align: left;
 }
-
 .image {border-radius: 70px;
-opacity: 80%;
-display: block;
-margin: auto;
+    opacity: 80%;
+    display: block;
+    margin: auto;
+}
+.image:hover {
+    opacity: 100%;
 }
 .article1 {
     position: relative;
@@ -69,9 +109,7 @@ margin: auto;
     color: #2B2A29;
     text-align:center;
     line-height: 39px;
-
 }
-
 .coffee_from {
     padding-top: 85px;
     padding-bottom: 22px;
@@ -81,7 +119,11 @@ margin: auto;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
+.country{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
 .country_name {
     font-size: 64px;
     font-family: 'IM Fell DW Pica', serif;
@@ -89,47 +131,60 @@ margin: auto;
     text-align:center;
     margin-top: -50px;
 }
-
+.country:hover{
+    .country_name {
+        font-size: 72px; 
+    }
+    .country__img {
+        width: 420px;
+    }
+}
 .button {
     margin: auto;
     margin-top: 112px;
     margin-bottom: 64px;
-    width: 293px;
+    width: 310px;
     height: 95px;
-    background-color: #BBD4B2;
-    border: 2px solid #2F7D0B;
-    border-radius: 50px;
-
+    background-color: #cdbf89;
+    border: 2px solid #ad9e5f;
+    border-radius: 40px;
     font-size: 42px;
     font-family: 'IM Fell DW Pica', serif;
     color: #2B2A29;
     text-align:center;
     padding-top: 22px;
 }
-
+.button:hover {
+    background-color: #e5d595;
+    border: 2px solid #7c703f;
+    font-size: 45px;
+}
 footer {
     background: url('./img/coffee_beans.svg') no-repeat center bottom / cover;
+    border-radius: 50px;
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 h4 {
 font-family:  'Monoton', cursive;
 font-size: 67px;
-letter-spacing: 7px;
+letter-spacing: 1px;
 margin-top: 0px;
 margin: auto;
 padding-top: 60px;
 padding-bottom: 60px;
 margin-left: 30px;}
-
-
 .logo_footer {
     margin-top: 27px;
     margin-left: 29px;
     margin-bottom: 45px;
 }
 .tel {
-    padding-right: 174px;
+    padding-right: 124px;
     text-decoration: underline;
+    color: #f2efeb;
+    font-family: 'Montaga', serif;
+    font-size: 45px;
 }

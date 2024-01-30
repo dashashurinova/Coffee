@@ -1,17 +1,21 @@
-
 .button {
     margin: auto;
-    /* margin-bottom: 64px; */
-    width: 209px;
+    margin-top: 112px;
+    margin-bottom: 64px;
+    width: 310px;
     height: 95px;
-    background-color: #BBD4B2;
-    border: 2px solid #2F7D0B;
-    border-radius: 50px;
-
-    font-size: 50px;
+    background-color: #cdbf89;
+    border: 2px solid #ad9e5f;
+    border-radius: 40px;
+    font-size: 42px;
     font-family: 'IM Fell DW Pica', serif;
     color: #2B2A29;
     text-align:center;
     padding-top: 22px;
+}
 
+.button:hover {
+    background-color: #e5d595;
+    border: 2px solid #7c703f;
+    font-size: 45px;
 }
